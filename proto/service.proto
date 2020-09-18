@@ -1,0 +1,11 @@
+syntax = "proto3";
+package delphai.consensus;
+
+import "proto/company.proto";
+
+message ConsensusRequest { map<string, delphai.company.Company> options = 1; }
+message ConsensusResponse { delphai.company.Company company = 1; }
+
+service Consensus {
+  rpc get_consensus(ConsensusRequest) returns (ConsensusResponse);
+}

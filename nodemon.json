@@ -1,0 +1,10 @@
+{
+  "verbose": false,
+  "quiet": true,
+  "ignore": [
+    ".venv/**"
+  ],
+  "exec": "python src/server.py",
+  "watch": ".",
+  "ext": "py"
+}

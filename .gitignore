@@ -1,0 +1,7 @@
+.venv
+.vendor
+validator.py
+validate
+.env
+__pycache__
+*_pb2.py
